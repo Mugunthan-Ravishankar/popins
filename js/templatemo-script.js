@@ -21,7 +21,7 @@ function setupGallery() {
   gallery = $('.gallery-slider').slick({
     slidesToShow: 5,
     slidesToScroll: 3,
-    dots: true,
+    dots: false,
     arrows: false,
     responsive: [
       {
